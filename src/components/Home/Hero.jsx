@@ -6,6 +6,7 @@ import ButtonComponent, { CustomButton } from "../Button";
 import Link from "next/link";
 
 const HeroSection = () => {
+
   return (
     <div className="max-w-screen bg-[#191919]">
       <div className="mx-auto max-w-[69.38rem] flex flex-col items-center justify-center w-full overflow-x-hidden relative  pt-[30rem]">
@@ -56,7 +57,7 @@ const HeroSection = () => {
               </p>
             </div>
             <Link href="/category/headphones/4" className="lg:mr-auto max-lg:mx-auto mt-7">
-              {/* <Button
+              <Button
                 styles={{
                   root: {
                     marginTop: "1.75rem",
@@ -75,8 +76,7 @@ const HeroSection = () => {
                 }}
               >
                 See Product
-              </Button> */}
-              <CustomButton text="see product" />
+              </Button>
             </Link>
           </div>
         </div>
