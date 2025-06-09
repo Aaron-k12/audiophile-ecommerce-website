@@ -37,32 +37,5 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
-
-## Project Structure
-
-```
-audiophile-ecommerce-website/
-├── public/
-│   └── assets/                # Static images and assets
-├── src/
-│   ├── app/
-│   │   ├── home/              # Home page route
-│   │   │   └── page.jsx
-│   │   └── ...                # Other routes
-│   ├── components/            # Reusable React components
-│   │   ├── Header.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Home/
-│   │   │   ├── Hero.jsx
-│   │   │   ├── ProductMenu.jsx
-│   │   │   └── AboutShowCase.jsx
-│   │   └── ProductCategoryMenu.jsx
-│   └── ...                    # Other source files
-├── .gitignore
-├── package.json
-├── README.md
-└── ...
-```
 
 
