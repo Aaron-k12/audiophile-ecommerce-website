@@ -8,7 +8,7 @@ import Link from "next/link";
 const HeroSection = () => {
 
   return (
-    <div className="max-w-screen bg-[#191919]">
+    <div className="bg-[#191919]">
       <div className="mx-auto max-w-[69.38rem] flex flex-col items-center justify-center w-full overflow-x-hidden relative  pt-[30rem]">
         {/* <div className="relative w-full bg-[#191919] pt-[30rem]"> */}
         {/* MOBILE */}
