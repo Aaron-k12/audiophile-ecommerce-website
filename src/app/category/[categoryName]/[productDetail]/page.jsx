@@ -12,7 +12,7 @@ const ProductDetailPage = () => {
   const router = useRouter();
 
   return (
-    <div className="overflow-x-hidden mb-20 px-6">
+    <div className="mb-20 px-6">
       <div className="">
         <ProductDetail
           categoryName={params.categoryName}

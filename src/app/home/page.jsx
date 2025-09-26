@@ -7,10 +7,10 @@ import AboutShowCase from "@/components/Home/AboutShowCase";
 const HomeIndex = () => {
   return (
     <>
-      <div className="overflow-x-hidden mb-20 w-full">
-        <div className=" flex flex-col gap-y-28">
+      <div className=" mb-20 w-full">
+        <div className="flex flex-col gap-y-28">
           <HeroSection />
-          <div className="mx-auto max-w-[69.38rem] px-6">
+          <div className="mx-auto max-w-[69.38rem]">
               <ProductCategoryMenu />
             <div className="flex flex-col gap-y-28 justify-center justify-items-center">
               <ProductCategory2 />
