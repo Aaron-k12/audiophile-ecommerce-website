@@ -9,7 +9,7 @@ import { useParams } from "next/navigation";
 const CategoryPage = () => {
   const params = useParams();
   return (
-    <div className="overflow-x-hidden mb-20 ">
+    <div className="overflow-x-hidden mb-20">
       <div className=" border-4 bg-[#191919] flex py-8 ">
         <p className="uppercase mx-auto text-white items-center font-bold text-2xl ">
           {params.categoryName}
