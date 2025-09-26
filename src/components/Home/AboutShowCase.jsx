@@ -33,18 +33,18 @@ const AboutShowCase = () => {
           alt="image of a man with a headset"
         />
       </div>
-      <div className="flex flex-col min-w-[20.4rem] lg:order-1 h-full ">
-        <div className="lg:my-auto">
-          <div className="mx-auto text-center ">
-            <p className="text-3xl font-bold uppercase">
+      <div className="flex flex-col min-w-[20.4rem] lg:order-1 h-full items-left">
+        <div className="lg:my-auto flex flex-col gap-y-6">
+          <div className="mx-auto place-self-start w-full">
+            <p className="text-3xl font-bold uppercase ">
               Bringing you the
-              <span className="">
+              <span className="block">
                 {" "}
                 <span className="text-[#D87D4A]">best</span> audio gear
               </span>
             </p>
           </div>
-          <p className="opacity-50 text-[0.93rem] text-center">
+          <p className="opacity-50 text-[0.93rem] text-left">
             Located at the heart of New York City, Audiophile is the premier
             store for high end headphones, earphones, speakers, and audio
             accessories. We have a large showroom and luxury demonstration rooms

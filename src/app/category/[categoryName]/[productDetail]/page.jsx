@@ -12,10 +12,8 @@ const ProductDetailPage = () => {
   const router = useRouter();
 
   return (
-    <div className="overflow-x-hidden">
-      <Header />
+    <div className="overflow-x-hidden mb-20 px-6">
       <div className="w-screen ">
-       
         <ProductDetail
           categoryName={params.categoryName}
           productId={params.productDetail}
@@ -23,10 +21,9 @@ const ProductDetailPage = () => {
         <div className="mx-auto max-w-[69.38rem] ">
           <ProductCategoryMenu />
         </div>
-        <div className="py-28 mx-auto max-w-[69.38rem]">
+        <div className="pt-28 mx-auto max-w-[69.38rem] ">
           <AboutShowCase />
         </div>
-        <Footer />
       </div>
     </div>
   );

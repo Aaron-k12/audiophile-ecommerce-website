@@ -9,14 +9,13 @@ import { useParams } from "next/navigation";
 const CategoryPage = () => {
   const params = useParams();
   return (
-    <div className="overflow-x-hidden">
-      <Header />
+    <div className="overflow-x-hidden mb-20 ">
       <div className=" border-4 bg-[#191919] flex py-8 ">
-        <p className="uppercase mx-auto text-white items-center font-bold text-2xl">
+        <p className="uppercase mx-auto text-white items-center font-bold text-2xl ">
           {params.categoryName}
         </p>
       </div>
-      <div className=" gap-y-28 ">
+      <div className=" gap-y-28 px-6">
         <div className="flex flex-col mx-auto max-w-[69.38rem] ">
           <div className="">
             <ProductCategoryList categoryName={params.categoryName ?? ""} />
@@ -24,11 +23,10 @@ const CategoryPage = () => {
           <div>
             <ProductCategoryMenu />
           </div>
-          <div className="py-28">
+          <div className="pt-28">
             <AboutShowCase />
           </div>
         </div>
-        <Footer />
       </div>
     </div>
   );

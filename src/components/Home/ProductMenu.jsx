@@ -9,15 +9,6 @@ const ProductCategory2 = () => {
   return (
     <div className="grid gap-y-6 max-lg:px-6">
       <div className="relative mt-20 bg-[#D87D4A] min-h-[32rem] md:h-[32rem] flex flex-col bg-[url('/assets/home/desktop/pattern-circles.svg')] bg-no-repeat bg-cover">
-        {/* <div className="h-full">
-                <Image
-                  src={assetIndex.home.pattern.circlePattern}
-                  width={700}
-                  height={100}
-                  objectFit="cover"
-                  priority
-                />
-              </div> */}
         <div className="absolute grid w-full max-lg:top-0 max-sm:top-12 lg:grid-cols-2 lg:bottom-0 sm:mx-auto h-fit">
           <div className="mx-auto md:hidden max-md:block">
             <Image

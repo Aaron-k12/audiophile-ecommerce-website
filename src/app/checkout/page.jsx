@@ -195,8 +195,7 @@ const CheckoutPage = () => {
 
       {/* Checkout form section */}
 
-      <Header />
-      <div className="flex flex-col lg:bg-[#F2F2F2] w-full relative">
+      <div className="flex flex-col lg:bg-[#F2F2F2] w-full relative px-6 h-full">
         <LoadingOverlay visible={loading} onBlur={2} />
         <div className="gap-y-9 grid lg:grid-cols-[2fr_1fr] mx-auto lg:gap-x-8  pb-16 pt-4">
           <div className="flex flex-col gap-y-10 ">
@@ -205,7 +204,7 @@ const CheckoutPage = () => {
             </div>
             <form
               ref={formRef}
-              className="grid gap-y-16  lg:gap-x-8  bg-white lg:p-14 w-full"
+              className="grid gap-y-16  lg:gap-x-8  bg-white lg:p-14 max-md:w-[300px] md:min-w-[600px]  xl:min-w-[800px]"
               onSubmit={form.onSubmit(handleSubmit)}
             >
               {/* checkout */}
@@ -215,6 +214,7 @@ const CheckoutPage = () => {
                 <div className="flex flex-col gap-y-4">
                   <p className="uppercase text-[#D87D4A]">Billing details</p>
                   <div className="flex flex-col gap-y-6 md:grid md:grid-cols-2 md:gap-x-4">
+
                     <TextInput
                       label="Name"
                       placeholder="Alexei Ward"
@@ -379,7 +379,7 @@ const CheckoutPage = () => {
                       <p className="text-lg font-bold">
                         $ {total.toLocaleString()}
                       </p>
-                      <p className="text-lg font-bold">${50}</p>
+                      <p className="text-lg font-bold">${" " + 50}</p>
                       <p className="text-lg font-bold">
                         $ {Math.round(total * 0.2)}
                       </p>
@@ -405,7 +405,6 @@ const CheckoutPage = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

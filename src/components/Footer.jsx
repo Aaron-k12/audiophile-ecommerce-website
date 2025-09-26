@@ -9,9 +9,9 @@ const Footer = () => {
   const pathname = usePathname();
   return (
     <footer className="bg-[#101010]">
-      <div className="flex flex-col w-full mx-auto max-w-[69.38rem]">
+      <div className="flex flex-col w-full mx-auto max-w-[69.38rem] place-content-center px-6">
         {/* MOBILE */}
-        <div className=" grid grid-cols-1 h-full  mx-auto items-center justify-items-center md:justify-items-left md:items-left pb-9 md:grid-cols-2 gap-y-12">
+        <div className="grid grid-cols-1 h-full  mx-auto  md:justify-items-left md:items-left pb-9 md:grid-cols-2 gap-y-12 max-md:justify-items-center">
           <div className="w-[101px] h-1 z-10 bg-[#D87D4A]  md:justify-self-start" />
           <Link
             href="/home"
@@ -47,8 +47,8 @@ const Footer = () => {
             <p>Copyright 2021. All Rights Reserved</p>
           </div>
           {/* SOCIALS */}
-          <div className="flex gap-x-9 md:row-start-5 md:row-end-6 md:justify-self-end lg:row-start-3 lg:row-end-4 lg:col-start-2 lg:col-end-3">
-            <div className="relative hover:bg-[#D87D4A] cursor-pointer">
+          <div className="flex gap-x-[16px] md:row-start-5 md:row-end-6 md:justify-self-end lg:row-start-3 lg:row-end-4 lg:col-start-2 lg:col-end-3 max-lg:justify-center">
+            <div className="hover:bg-[#D87D4A] cursor-pointer mb-auto">
               <Image
                 src={assetIndex.socials.facebook}
                 width={20}
@@ -56,7 +56,7 @@ const Footer = () => {
                 alt="socials icon"
               />
             </div>
-            <div className="relative hover:bg-[#D87D4A] cursor-pointer">
+            <div className="hover:bg-[#D87D4A] cursor-pointer mb-auto">
               <Image
                 src={assetIndex.socials.instagram}
                 width={20}
@@ -64,7 +64,7 @@ const Footer = () => {
                 alt="socials icon"
               />
             </div>
-            <div className="relative hover:bg-[#D87D4A] cursor-pointer">
+            <div className="hover:bg-[#D87D4A] cursor-pointer mb-auto">
               <Image
                 src={assetIndex.socials.twitter}
                 width={20}

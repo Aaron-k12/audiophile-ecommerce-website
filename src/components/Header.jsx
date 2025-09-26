@@ -24,7 +24,7 @@ export default function Header() {
   const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);  
 
   return (
-    <div className="max-w-screen relative">
+    <div className="w-full relative">
       {/* MODAL SECTION */}
       <Modal
         opened={opened}
