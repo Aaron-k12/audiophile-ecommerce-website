@@ -1,6 +1,6 @@
 # Audiophile Ecommerce Website (Software Development Pathway Assessment)
 
-This is an ecommerce website built with [Next.js](https://nextjs.org), featuring a modern UI, product catalog, shopping cart, and checkout flow. 
+This is an ecommerce website for an assessment built with [Next.js](https://nextjs.org), featuring a modern UI, product catalog, shopping cart, and checkout flow. 
 Tools used Nextjs, tailwindCSS, and mantine library.
 
 ## Features
@@ -9,7 +9,7 @@ Tools used Nextjs, tailwindCSS, and mantine library.
 - Shopping cart with quantity management
 - Checkout process
 - Responsive design for mobile, tablet, and desktop
-- Modular and reusable React components
+- Form validation
 
 ## Getting Started
 

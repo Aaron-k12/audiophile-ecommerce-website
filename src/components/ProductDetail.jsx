@@ -264,20 +264,19 @@ const ProductDetail = ({ productId, categoryName }) => {
                 <p className="mt-4 font-bold uppercase tracking-widest text-2xl">
                   {item.name}
                 </p>
+                <div className="min-w-[200px]">
+
                 <CustomButton
                   text="see product"
                   onClick={() => findItem(item.slug)}
                 />
+                </div>
               </div>
             </div>
           ))}
         </div>
       </div>
-      {/* <div>
-        <ProductCategoryMenu />
-      </div>
-      <AboutShowCase />
-      <Footer /> */}
+      
     </div>
   ) : (
     <p>No data available</p>
