@@ -33,7 +33,7 @@ const AboutShowCase = () => {
           alt="image of a man with a headset"
         />
       </div>
-      <div className="flex flex-col min-w-[20.4rem] lg:order-1 h-full items-left">
+      <div className="flex flex-col lg:order-1 h-full items-left">
         <div className="lg:my-auto flex flex-col gap-y-6">
           <div className="mx-auto place-self-start w-full">
             <p className="text-3xl font-bold uppercase ">
