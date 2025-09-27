@@ -13,7 +13,7 @@ const ProductDetailPage = () => {
 
   return (
     <div className="overflow-x-hidden mb-20 px-6">
-      <div className="border">
+      <div className="">
         <ProductDetail
           categoryName={params.categoryName}
           productId={params.productDetail}
